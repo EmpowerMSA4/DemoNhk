@@ -17,6 +17,7 @@ namespace HelloMsa_1
 		/// <param name="engine">Link with SLAutomation process.</param>
 		public void Run(IEngine engine)
 		{
+			// The next line will generate an information event.
 			engine.GenerateInformation("Hello Michiel");
 		}
 	}
